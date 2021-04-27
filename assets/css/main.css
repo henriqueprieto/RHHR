@@ -1,0 +1,156 @@
+a,
+li,
+h1,
+h2,
+h3,
+div,
+span,
+p,
+body,
+section {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.2;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  background: #18a0fb;
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+  border: 0px;
+}
+
+input {
+  background-color: #2b2e46;
+  color: white;
+  opacity: 100%;
+  padding: 10px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+::-webkit-input-placeholder {
+  color: white;
+}
+
+.login-section {
+  background-color: #2d106a;
+  padding: 100px;
+}
+.login-text {
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.login-h2 h2 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.login-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.make-login,
+.make-register {
+  background-color: #040925;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: space-between;
+}
+.make-login p,
+.make-register p {
+  margin-bottom: 20px;
+}
+
+.make-login {
+  margin-right: 50px;
+}
+.make-register {
+  margin-left: 50px;
+}
+.login-area p {
+  color: white;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name .register-last-name {
+  margin-left: 10px;
+}
+
+.name .register-first-name {
+  margin-right: 10px;
+}
+
+.welcome {
+  background-color: #2d106a;
+  padding: 100px;
+}
+
+.welcome h1 {
+  font-size: 48px;
+  color: white;
+}
+
+@media (max-width: 1530px) {
+  .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .name .register-last-name {
+    margin-left: 0px;
+  }
+
+  .name .register-first-name {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1300px) {
+  .make-login,
+  .make-register {
+    width: 40%;
+  }
+  .login-section {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .login-h2 h2 {
+    font-size: 30px;
+  }
+  .make-login,
+  .make-register {
+    width: 40%;
+  }
+  .login-section {
+    padding: 30px;
+  }
+  .login-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .make-login,
+  .make-register {
+    width: 60%;
+    margin: 0px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .make-login,
+  .make-register {
+    padding: 30px;
+  }
+}
